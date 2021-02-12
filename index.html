@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Meu Portfólio Web</title>
 </head>
 <body>
     <h1>Portfólio Web</h1>
-    <p id="nome">Daniel Ceci Araujo</p>
+    <p id="nome" class="myname">Daniel Ceci Araujo</p>
     <br>
-     <p id="imagem"><img src="foto" alt="minha foto" width="150px"> <br>  Essa foto foi tirada em uma visita ao <em>Congresso Nacional</em>.</p>
-    <p>Tenho 24 anos. Nasci em Março de 1996. Sou Brasileiro. <em>Nasci em Fortaleza(CE)</em>, mas já moro em <strong>Foz do Iguaçu(PR)</strong> há muito tempo.</p>
-    <p id="skills">Tenho Bom conhecimento de Inglês;Intermediário em Espanhol;Futuramente serei <strong>Desenvolvedor Web</strong>;Sei tocar diversos instrumentos musicais.</p>
-    <p>Link interno para minha <a href="https://media-exp1.licdn.com/dms/image/C5103AQFNp7LwCgIv8g/profile-displayphoto-shrink_800_800/0/1516976762090?e=1618444800&v=beta&t=-dxxWUY8ebPwdtfqXOVQ5CZ62awxO6Aro2heNQC3Y2w">foto</a></p>
-    <p id="blog">Um <a href="https://jumperbrasil.lance.com.br/" target="_blank" rel="external">blog </a>no qual eu goste muito</p>
-    <ul>
-        <li><a href="#nome">Nome</a></li>
-        <li><a href="#imagem">Foto e Localidade</a></li>
-        <li><a href="#skills">Habilidades</a></li>
-        <li><a href="#blog">Blog que eu acompanhe</a></li>
-    </ul>
+     <p class="onlyThisP" id="imagem"><img class="picture" src="foto" alt="minha foto" width="220px"> <br>  Essa foto foi tirada em uma visita ao <em>Congresso Nacional</em>.</p> <!--aqui tem uma class(onlythisP) pra tag p e uma class(picture) pra imagem em si-->
+    <div class="div">
+        <p class="description">Tenho 24 anos. Nasci em Março de 1996. Sou Brasileiro. <em>Nasci em Fortaleza(CE)</em>, mas já moro em <strong>Foz do Iguaçu(PR)</strong> há muito tempo. Sou formado em Administração pela Universidade Estadual do Paraná(UNIOESTE). Hoje estudo Desenvolvimento Web com a TRYBE. Busco trabalhar com programação.</p>
+        <p id="skills"> Abaixo, uma lista com algumas habilidades:
+            <ul>
+            <li class="li1">Tenho bom conhecimento em <strong>Inglês</strong></li>
+            <li class="li2">Intermediário em <em>Espanhol</em></li>
+            <li class="li3">Estou evoluindo na área de <strong>Desenvolvimento Web</strong> com a TRYBE.Busco trabalhar com programação</li>
+            </ul>
+        </p>
+        <p>Link interno para minha <a href="https://media-exp1.licdn.com/dms/image/C5103AQFNp7LwCgIv8g/profile-displayphoto-shrink_800_800/0/1516976762090?e=1618444800&v=beta&t=-dxxWUY8ebPwdtfqXOVQ5CZ62awxO6Aro2heNQC3Y2w">Foto</a></p>
+        <p id="blog">Um <a href="https://jumperbrasil.lance.com.br/" target="_blank" rel="external">Blog </a>no qual eu goste muito <i class="fas fa-basketball-ball"></i></p>
+        <ul>
+            <li><a href="#nome">Nome</a></li>
+            <li><a href="#imagem">Foto e Localidade</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#blog">Blog que eu acompanhe</a></li>
+        </ul>
+    </div>
+    <script src="https://kit.fontawesome.com/ce335da04d.js" crossorigin="anonymous"></script>
 </body>
 </html>

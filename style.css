@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.picture{
+    border-radius: 50%;
+}
+.myname{
+    font-size: 30px;
+}
+.description{
+    font-family: cursive;
+    
+}
+.div{
+    font-size: 20px;
+}
+
+ul{
+    line-height: 50px;
+    list-style: none;
+}
+.onlyThisP{
+    font-size: 20px;
+} 
+.li1{
+font-size: 30px;
+}
+.li2{
+    font-size: 23px;
+}
+.li3{
+    font-size: 25px;
+}
