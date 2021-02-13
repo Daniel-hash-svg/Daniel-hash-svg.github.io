@@ -8,15 +8,20 @@ h1{
 }
 .picture{
     border-radius: 50%;
+    background-color: rgb(31, 38, 80);
+    padding: 5px;
 }
 .myname{
     font-size: 30px;
+    text-align: center;
 }
 .description{
     font-family: cursive;
-    
+    margin-top: 80px;
+    max-width: 60%;
+    margin-left: 150px;
 }
-.div{
+.div2{
     font-size: 20px;
 }
 
@@ -35,4 +40,8 @@ font-size: 30px;
 }
 .li3{
     font-size: 25px;
+}
+ol{
+   display: flex;
+   list-style: none;
 }
